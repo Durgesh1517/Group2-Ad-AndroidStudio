@@ -32,6 +32,10 @@
             android:name=".CandidateActivities.CandidateDetailActivity"
             android:exported="false" />
 
+        <activity
+            android:name=".CandidateActivities.CandidateActivity"
+            android:exported="false" />
+
 
         <activity
             android:name=".IntroPageActivities.IntroActivity"
