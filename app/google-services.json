@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "314736116079",
+    "project_id": "jobshunt-add6f",
+    "storage_bucket": "jobshunt-add6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314736116079:android:4b7a5ea75e7f4f8bcae89a",
+        "android_client_info": {
+          "package_name": "com.example.jobshunt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5aoolc7BWqZ2VkvIgz4st4VSQV9JO-gY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
