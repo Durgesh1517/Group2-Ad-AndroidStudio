@@ -26,7 +26,7 @@
             recyclerView = findViewById(R.id.mainRecyclerView)
             recyclerView.layoutManager = LinearLayoutManager(this)
 
-            // Initialize exploreButton
+            // Explore button
             exploreButton = findViewById(R.id.exploreButton)
 
             // Set click listener for the exploreButton
