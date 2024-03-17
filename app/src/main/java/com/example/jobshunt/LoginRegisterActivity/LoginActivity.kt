@@ -9,6 +9,7 @@
         import android.widget.Toast
         import androidx.appcompat.app.AppCompatActivity
         import com.example.jobshunt.IntroPageActivities.IntroActivity
+        import com.example.jobshunt.MainActivity.MainActivity
         import com.example.jobshunt.R
         import com.google.firebase.auth.FirebaseAuth
 
@@ -63,7 +64,7 @@
                 auth.signInWithEmailAndPassword(userEmail, userPassword)
                     .addOnCompleteListener(this) { task ->
                         if (task.isSuccessful) {
-                            startActivity(Intent(this, IntroActivity::class.java))
+                            startActivity(Intent(this, MainActivity::class.java))
                             finish()
                         } else {
                             // Handle login failure

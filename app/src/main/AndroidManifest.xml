@@ -22,6 +22,12 @@
             android:name=".LoginRegisterActivity.LoginActivity"
             android:exported="false" />
 
+        <activity
+            android:name=".MainActivity.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Jobshunt"/>
+
 
         <activity
             android:name=".IntroPageActivities.IntroActivity"

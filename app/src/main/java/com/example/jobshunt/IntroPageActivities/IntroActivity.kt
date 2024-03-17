@@ -8,7 +8,7 @@ import com.example.jobshunt.LoginRegisterActivity.LoginActivity
 import com.example.jobshunt.R
 
 class IntroActivity : AppCompatActivity() {
-    private val SPLASH_TIME_OUT: Long = 3000 // 3 seconds
+    private val SPLASH_TIME_OUT: Long = 2000 // 2 seconds
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
