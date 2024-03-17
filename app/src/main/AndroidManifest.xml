@@ -14,8 +14,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Jobshunt"
         tools:targetApi="31">
+         <!-- Move the <intent-filter> inside the activity for the launcher -->
+        <activity
+            android:name=".LoginRegisterActivity.RegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginRegisterActivity.LoginActivity"
+            android:exported="false" />
 
-            <!-- Move the <intent-filter> inside the activity for the launcher -->
 
         <activity
             android:name=".IntroPageActivities.IntroActivity"
