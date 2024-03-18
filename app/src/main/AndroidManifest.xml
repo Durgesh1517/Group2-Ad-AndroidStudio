@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-permission android:name="android.permission.INTERNET" />
+        <uses-permission android:name="android.permission.INTERNET" />
 
-    <application
-        android:allowBackup="true"
-        android:dataExtractionRules="@xml/data_extraction_rules"
-        android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/Theme.Jobshunt"
-        tools:targetApi="31">
-         <!-- Move the <intent-filter> inside the activity for the launcher -->
-        <activity
-            android:name=".LoginRegisterActivity.RegistrationActivity"
-            android:exported="false" />
-        <activity
-            android:name=".LoginRegisterActivity.LoginActivity"
-            android:exported="false" />
-
-        <activity
-            android:name=".MainActivity.MainActivity"
-            android:exported="true"
+        <application
+            android:allowBackup="true"
+            android:dataExtractionRules="@xml/data_extraction_rules"
+            android:fullBackupContent="@xml/backup_rules"
+            android:icon="@mipmap/ic_launcher"
             android:label="@string/app_name"
-            android:theme="@style/Theme.Jobshunt"/>
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/Theme.Jobshunt"
+            tools:targetApi="31">
+             <!-- Move the <intent-filter> inside the activity for the launcher -->
+            <activity
+                android:name=".LoginRegisterActivity.RegistrationActivity"
+                android:exported="false" />
+            <activity
+                android:name=".LoginRegisterActivity.LoginActivity"
+                android:exported="false" />
 
-        <activity
-            android:name=".CandidateActivities.CandidateDetailActivity"
-            android:exported="false" />
+            <activity
+                android:name=".MainActivity.MainActivity"
+                android:exported="true"
+                android:label="@string/app_name"
+                android:theme="@style/Theme.Jobshunt"/>
 
-        <activity
-            android:name=".CandidateActivities.CandidateActivity"
-            android:exported="false" />
+            <activity
+                android:name=".CandidateActivities.CandidateDetailActivity"
+                android:exported="false" />
 
-
-        <activity
-            android:name=".IntroPageActivities.IntroActivity"
-            android:exported="true">
-
-            <!-- Add the <intent-filter> for the IntroActivity if needed -->
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-    </application>
+            <activity
+                android:name=".CandidateActivities.CandidateActivity"
+                android:exported="false" />
 
 
-</manifest>
+            <activity
+                android:name=".IntroPageActivities.IntroActivity"
+                android:exported="true">
+
+                <!-- Add the <intent-filter> for the IntroActivity if needed -->
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+        </application>
+
+
+    </manifest>

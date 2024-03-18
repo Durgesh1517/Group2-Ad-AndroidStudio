@@ -141,16 +141,15 @@
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/RecyclerView"
                     android:layout_width="match_parent"
-                    android:layout_height="160dp"
+                    android:layout_height="180dp"
                     android:clipToPadding="false"
-
                     android:paddingStart="16dp"
                     android:paddingEnd="16dp" />
 
                 <ImageView
                     android:layout_width="60dp"
                     android:id="@+id/backButtton"
-                    android:layout_marginLeft="170dp"
+                    android:layout_marginLeft="300dp"
                     android:layout_height="30dp"
                     android:src="@drawable/arrow" />
 
